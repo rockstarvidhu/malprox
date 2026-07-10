@@ -7,16 +7,16 @@
 5. Set
 '''
 
-a = 10
+a = 10            #integer
 print(type(a))
 
-b = 31.04
+b = 31.04       #float
 print(type(b))
 
-c = 'vidhu0326'
+c = 'vidhu0326' #string
 print(type(c))
 
-d = [1, 2, 3, 4, 5]
+d = [1, 2, 3, 4, 5] #dictionary
 print(type(d))
 
 ed = {'a' :22, 'b' :23}
