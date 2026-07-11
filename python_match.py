@@ -1,4 +1,4 @@
-http_status = 200
+http_status = 303
 
 match http_status:
      
@@ -8,5 +8,7 @@ match http_status:
         print("not found")
     case 500:
         print("server not found")
+    case _:
+        print("error")
 
 #match statement checks one condition with several other conditions until the desired condition is met
