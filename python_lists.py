@@ -1,4 +1,4 @@
-list1 = [1, 2, 3, 4, 5]
+list1 = [1, 2, 3, 4, 5]  #[] are used to declare lists
 #print function to print all elements in list
 print(*list1)
 print(list1, sep = "  ")
@@ -26,4 +26,3 @@ print(list1)
 #iterating through list
 for x in list1:
     print("value is : ", x)
-    

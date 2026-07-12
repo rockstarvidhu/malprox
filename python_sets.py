@@ -7,4 +7,4 @@ print(set_1)
 
 set_1.remove(6)
 print(set_1)
-
+ 
